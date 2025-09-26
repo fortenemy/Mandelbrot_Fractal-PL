@@ -210,7 +210,7 @@ class FractalApp:
             "*  Przeciągnij: Poruszanie",
             "*  Scroll: Zoom in/out",
             "*  =/+: Zwiększ jakość renderowania", 
-            "*  -: Zmniejsz jakość renderowania",
+            "*  -/_: Zmniejsz jakość renderowania",
             "*  Spacja: Reset widoku",
             "*  C: Zmiana kolorów",
             "*  S: Screenshot"
