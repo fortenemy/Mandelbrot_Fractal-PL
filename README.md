@@ -30,6 +30,9 @@
 10. **Matrix Code** - Zielona matryca
 
 
+![Fraktal Mandelbrota](fraktal.png)
+
+
 ## 🚀 Instalacja
 
 ### Wymagania systemowe
