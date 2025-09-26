@@ -6,6 +6,8 @@
 
 **Piękna, interaktywna aplikacja do eksploracji fraktala Mandelbrota z możliwością 'nieskończonego' powiększania!**
 
+![Fraktal Mandelbrota](fraktal.png)
+
 ## ✨ Funkcje
 
 ### 🎯 Główne możliwości
@@ -28,10 +30,6 @@
 8. **Ice Crystal** - Lodowe błękity
 9. **Sunset Glow** - Ciepłe kolory zachodu słońca
 10. **Matrix Code** - Zielona matryca
-
-
-![Fraktal Mandelbrota](fraktal.png)
-
 
 ## 🚀 Instalacja
 
