@@ -4,9 +4,9 @@
 ![Pygame](https://img.shields.io/badge/Pygame-2.5+-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-**Piękna, interaktywna aplikacja do eksploracji fraktala Mandelbrota z możliwością 'nieskończonego' powiększania!**
+**Interaktywna aplikacja do eksploracji fraktala Mandelbrota z możliwością 'nieskończonego' powiększania.**
 
-![Fraktal Mandelbrota](fraktal.png)
+![Fraktal Mandelbrota](fractal.png)
 
 ## ✨ Funkcje
 
@@ -47,7 +47,7 @@
 git clone https://github.com/fortenemy/Mandelbrot-Fractal-PL.git
 cd Mandelbrot-Fractal-PL
 
-# Lub po prostu pobierz pliki do predefiniowanego folderu
+# Lub pobierz pliki do predefiniowanego folderu
 ```
 
 2. **Zainstaluj zależności:**
@@ -92,19 +92,22 @@ python main.py
 
 ### Wskazówki sterowania
 
-Aplikacja wyświetla stale pomocne wskazówki w lewym dolnym rogu.
+Aplikacja wyświetla pomocne wskazówki w lewym dolnym rogu.
 
 ## 🔧 Architektura aplikacji
 
 ### Struktura plików
 
 ```
-fractal/
-├── main.py              # Główna aplikacja i interface
-├── fractal_engine.py    # Silnik obliczeń matematycznych
-├── color_palette.py     # System kolorowania
-├── requirements.txt     # Zależności Python
-└── README.md           # Ta dokumentacja
+fraktal/
+├── Mandelbrot-Fractal-PL/
+│   ├── main.py              # Główna aplikacja i interface
+│   ├── fractal_engine.py    # Silnik obliczeń matematycznych
+│   ├── color_palette.py     # System kolorowania
+│   └── requirements.txt     # Zależności Python
+├── fraktal.png             # Screenshot aplikacji
+├── README.md               # Ta dokumentacja
+└── LICENSE.md              # Licencja MIT
 ```
 
 ### Kluczowe klasy

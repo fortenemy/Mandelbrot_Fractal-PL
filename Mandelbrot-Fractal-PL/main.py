@@ -201,17 +201,19 @@ class FractalApp:
             y_offset += 20
         
         # Instrukcje sterowania
-        controls_y = self.height - 140
-        controls_rect = pygame.Rect(10, controls_y, 350, 120)
+        controls_y = self.height - 180
+        controls_rect = pygame.Rect(10, controls_y, 380, 160)
         pygame.draw.rect(self.screen, (0, 0, 0, 180), controls_rect)
         pygame.draw.rect(self.screen, (255, 255, 255), controls_rect, 2)
         
         controls = [
-            "🖱️  Przeciągnij: Poruszanie",
-            "🎯  Scroll: Zoom in/out", 
-            "⭐  Spacja: Reset widoku",
-            "🎨  C: Zmiana kolorów",
-            "📸  S: Screenshot"
+            "*  Przeciągnij: Poruszanie",
+            "*  Scroll: Zoom in/out",
+            "*  =/+: Zwiększ jakość renderowania", 
+            "*  -: Zmniejsz jakość renderowania",
+            "*  Spacja: Reset widoku",
+            "*  C: Zmiana kolorów",
+            "*  S: Screenshot"
         ]
         
         y_offset = controls_y + 10
